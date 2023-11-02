@@ -1,0 +1,141 @@
+/* Background and text colors */
+body {
+    background-color: #7ba3ec;
+    font-family: Georgia, serif;
+    color: #333333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #020735;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(55, 45, 45, 0.87);
+    text-align: center;
+    padding-right: 60px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #999bbc;
+}
+
+/* Form and input styles */
+label {
+    font-weight: bold;
+    color: #333333;
+}
+
+select,
+input,
+button {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #2b0a5a;
+    border-radius: 5px;
+    background-color: #7ba3ec;
+    color: #333333;
+}
+
+/* User list styles */
+#userList {
+    list-style: none;
+}
+
+#userList li {
+    padding: 10px;
+    border: 2px solid #7ba3ec;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #999bbc;
+    cursor: pointer;
+    color: #00030c;
+    box-shadow: 0 2px 2px rgba(99, 149, 231, 0.82);
+}
+
+/* Pop-up card styles */
+.card-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #7ba3ec;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    max-width: 400px;
+    border-radius: 5px;
+    color: #333333;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: #020735;
+}
+
+.close:hover {
+    color: red;
+}
+
+/* Pagination button styles */
+button {
+    padding: 10px 20px;
+    background-color: #020735;
+    color: #999bbc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #0e4a9d;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+#sorting {
+    float: right;
+}
+
+#sortSelect {
+    background-color: #7ba3ec;
+    color: #333333;
+    border: 1px solid #7ba3ec;
+    border-radius: 5px;
+}
+
+/* Pagination button styles */
+#pagination {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#pagination button:hover {
+    background-color: #0e4a9d;
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+}
+
+#pagination button {
+    padding: 10px 15px;
+    background-color: #020735;
+    color: #999bbc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+/* CSS for user records */
+.user-photo {
+    box-shadow: 5px 5px 10px #000;
+}
