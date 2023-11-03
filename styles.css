@@ -82,7 +82,9 @@ button {
 .close:hover {
     color: red;
 }
-
+#searchInput::placeholder {
+    color: #ece2d0; /* Change to your desired color, e.g., Orange */
+}
 /* Pagination button styles */
 button {
     padding: 10px 20px;

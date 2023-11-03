@@ -17,7 +17,7 @@ async function fetchRandomUsers() {
     try {
         const response = await fetch("https://randomuser.me/api/?results=100");
         const data = await response.json();
-        users = data.results; // Store user data in the global users array
+        users = data.results;  
         displayUsers();
     } catch (error) {
         console.error("Error fetching random users:", error);
