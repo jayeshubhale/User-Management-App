@@ -83,7 +83,7 @@ button {
     color: red;
 }
 #searchInput::placeholder {
-    color: #ece2d0; /* Change to your desired color, e.g., Orange */
+    color: #ece2d0;  
 }
 /* Pagination button styles */
 button {
